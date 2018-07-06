@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0735B0EE20EEF93D0052E333 /* VS(4x4)ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735B0ED20EEF93D0052E333 /* VS(4x4)ViewController.swift */; };
 		0736B08B20EE94C0003CF23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736B08A20EE94C0003CF23B /* AppDelegate.swift */; };
 		0736B08D20EE94C0003CF23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736B08C20EE94C0003CF23B /* ViewController.swift */; };
 		0736B09020EE94C0003CF23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0736B08E20EE94C0003CF23B /* Main.storyboard */; };
 		0736B09220EE94C0003CF23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0736B09120EE94C0003CF23B /* Assets.xcassets */; };
 		0736B09520EE94C0003CF23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0736B09320EE94C0003CF23B /* LaunchScreen.storyboard */; };
+		0736B09D20EE962C003CF23B /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736B09C20EE962C003CF23B /* GridLabel.swift */; };
+		0736B09F20EED542003CF23B /* VS(3x3))ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0736B09E20EED542003CF23B /* VS(3x3))ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0735B0ED20EEF93D0052E333 /* VS(4x4)ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VS(4x4)ViewController.swift"; sourceTree = "<group>"; };
 		0736B08720EE94BF003CF23B /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0736B08A20EE94C0003CF23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0736B08C20EE94C0003CF23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		0736B09120EE94C0003CF23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0736B09420EE94C0003CF23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0736B09620EE94C0003CF23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0736B09C20EE962C003CF23B /* GridLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLabel.swift; sourceTree = "<group>"; };
+		0736B09E20EED542003CF23B /* VS(3x3))ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VS(3x3))ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				0736B08A20EE94C0003CF23B /* AppDelegate.swift */,
 				0736B08C20EE94C0003CF23B /* ViewController.swift */,
 				0736B08E20EE94C0003CF23B /* Main.storyboard */,
+				0735B0ED20EEF93D0052E333 /* VS(4x4)ViewController.swift */,
+				0736B09E20EED542003CF23B /* VS(3x3))ViewController.swift */,
+				0736B09C20EE962C003CF23B /* GridLabel.swift */,
 				0736B09120EE94C0003CF23B /* Assets.xcassets */,
 				0736B09320EE94C0003CF23B /* LaunchScreen.storyboard */,
 				0736B09620EE94C0003CF23B /* Info.plist */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0736B09D20EE962C003CF23B /* GridLabel.swift in Sources */,
+				0735B0EE20EEF93D0052E333 /* VS(4x4)ViewController.swift in Sources */,
 				0736B08D20EE94C0003CF23B /* ViewController.swift in Sources */,
 				0736B08B20EE94C0003CF23B /* AppDelegate.swift in Sources */,
+				0736B09F20EED542003CF23B /* VS(3x3))ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
